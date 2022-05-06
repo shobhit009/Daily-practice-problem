@@ -33,6 +33,7 @@
 # Explanation: Your function should return k = 2, with the first two elements of nums being 2.
 # It does not matter what you leave beyond the returned k (hence they are underscores).
 
+#checking change of user
 from typing import List
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
