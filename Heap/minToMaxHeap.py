@@ -29,7 +29,7 @@ def max_heapify(arr,i,n):
     R = 2 * i + 2
     largest = i
 
-    if (L<n and arr[L]>arr[i]):
+    if (L<n and arr[L]>arr[largest]):
         largest = L
     if (R<n and arr[R]>arr[largest]):
         largest = R

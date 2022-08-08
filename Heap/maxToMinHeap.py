@@ -28,7 +28,7 @@ def min_heapify(arr,i,n):
     R = 2 * i + 2
     smallest = i
 
-    if (L<n and arr[L]<arr[i]):
+    if (L<n and arr[L]<arr[smallest]):
         smallest = L
     if (R<n and arr[R]<arr[smallest]):
         smallest = R
@@ -47,7 +47,7 @@ def printArray(arr, size):
     print()
 
 if __name__ == "__main__":
-    arr = [20, 18, 10, 12, 9, 9, 3, 5, 6, 8]
+    arr = [20, 18, 10, 12, 9, 9, 3, 5, 6, 8,12,13,45,6,6,16,7,9000.50000,46767,98890,9090]
     n = len(arr)
  
     print("Max Heap array : ")
