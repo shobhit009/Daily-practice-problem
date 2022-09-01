@@ -35,5 +35,5 @@ def maxProfit(prices: List[int]) -> int:
         
 
 if __name__ == "__main__":
-    print (maxProfit([2,4,1]))
+    print (maxProfit([1,5,3,8,12]))
 

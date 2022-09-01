@@ -33,7 +33,7 @@ from typing import List
 import sys
 
 
-def maxSubArray(self, nums: List[int]) -> int:       
+def maxSubArray( nums: List[int]) -> int:       
     MAX_SUM = -sys.maxsize - 1
     CURR_SUM = 0        
     for i in range(0,len(nums)):
@@ -46,5 +46,5 @@ def maxSubArray(self, nums: List[int]) -> int:
     
     return MAX_SUM
 
-print(maxSubArray(nums=[1]))
+print(maxSubArray(nums=[-3,8,-2,4,-5,6]))
         
