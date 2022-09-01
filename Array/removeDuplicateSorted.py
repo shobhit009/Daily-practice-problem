@@ -8,9 +8,9 @@ def remove_duplicate(arr,n):
 
         
     print (count)
-    return arr
 
-print (remove_duplicate([10,20,20,20,30,30,30,30],7))
+
+print (remove_duplicate([10,10,20,20],4))
 
     
 
