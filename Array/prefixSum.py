@@ -1,6 +1,3 @@
-from tkinter import N
-
-
 def get_sum_precompute(arr,n):
     prefix_sum_array=[None]*n
     sum = 0
