@@ -2,7 +2,7 @@ def find_median(arr1,arr2,m,n):
     i = 0
     j = 0
     arr = []
-    while i <= m-1 and j < n-1:
+    while i < m and j < n:
         if arr1[i] < arr2[j]:
             arr.append(arr1[i])
             i += 1
@@ -10,10 +10,10 @@ def find_median(arr1,arr2,m,n):
             arr.append(arr2[j])
             j += 1
     # print (i,j)
-    while (i<=m-1):
+    while (i<m):
         arr.append(arr1[i])
         i += 1
-    while (j<=n-1):
+    while (j<n):
         arr.append(arr2[j])
         j += 1
 
