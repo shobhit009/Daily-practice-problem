@@ -9,8 +9,21 @@ def remove_duplicate(arr,n):
         
     print (count)
 
+def size_after_duplicate_removal(arr,n):
+    count = 1
+    i = 0 
+    j= 1
+    while (i<n and j < n):
+        if arr[i] != arr[j]:
+            count += 1
+            i = j
+            j += 1
+        else:
+            j += 1
+    return count
 
-print (remove_duplicate([10,10,20,20],4))
+
+print (size_after_duplicate_removal([10,10,10],3))
 
     
 
