@@ -12,6 +12,6 @@ def check_subsequence(string1,string2):
         return False
     else:
         return True
-
+# subsequence doesn't necessarily mean that it should be contiguous
 
 print (check_subsequence("ShobhitSharma","hohtrm"))
